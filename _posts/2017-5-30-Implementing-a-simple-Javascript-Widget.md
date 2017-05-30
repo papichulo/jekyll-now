@@ -2,13 +2,13 @@
 layout: post
 title: Implementing a simple javascript widget!
 ---
-###Basic rules
+### Basic rules
 * Don't clutter the global namespace
 * Expose only necessary variables, preferrably in it's own contained object
 * Check for prescence of dependencies before loading, if not present, load minified version of just the necessary stuff.
 * Use JSONP to load content from other domains.
 
-##JavaScript
+## JavaScript
 ```javascript
 (window.ExampleWidget = window.ExampleWidget || function() {
 	ExampleWidget.make = function(params)
@@ -37,7 +37,7 @@ title: Implementing a simple javascript widget!
 })();
 ```
 
-##HTML
+## HTML
 ```html
 <script type="text/javascript" src="//example.com/example.widget.js"></script>
 <script type="text/javascript">
@@ -49,7 +49,7 @@ title: Implementing a simple javascript widget!
 </script>
 ```
 
-##Adding a StyleSheet
+## Adding a StyleSheet
 Adding a css-file can be done by just appending the link-tag to the head.
 Something like this can be added as a function called from the make-function.
 ```javascript
