@@ -4,12 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Fullstack developer at [Transitor AB](https://www.comers.se)
 
-### More Information
+### Purpose
 
-A place to include any other types of information that you'd like to include about yourself.
+This site could be considered my notebook while researching everyday tasks.
+How often it will be updated remains to be known.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[david.simonsbacka@gmail.com](mailto:david.simonsbacka@gmail.com)
