@@ -1,0 +1,24 @@
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+    <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+    <p>{{ site.description }}</p>
+  </div>
+  <div class="sidebar-item">
+    <nav class="sidebar-nav">
+        <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Blog</a>
+        <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/about">About</a>
+    </nav>
+  </div>
+  <div class="sidebar-item">
+    <p>
+      &copy; {{ site.time | date: '%Y' }}. All rights reserved.
+    </p>
+  </div>
+  <div class="sidebar-item">
+      {% include svg-icons.html %}
+  </div>
+</div>
